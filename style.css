@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+html {
+  font-size: 66.25%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://images.wallpaperscraft.ru/image/single/trava_makro_zelenyj_153486_2560x1080.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.block {
+  max-width: 65rem;
+  min-width: 30rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(129, 193, 50, 0.2);
+  color: aliceblue;
+  padding: 10rem;
+  border: 0.25rem solid white;
+}
+
+.block h1 {
+  font-size: 7rem;
+  text-align: center;
+}
+
+.block h3 {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  padding: 1.5rem 4rem;
+  background: rgb(129, 193, 50);
+  color: aliceblue;
+  border: none;
+}
